@@ -1,0 +1,247 @@
+@import url('reset.css');
+/* font-family: 'Montserrat', sans-serif; */
+
+/* !GLOBAL STYLES */
+html, body{
+	scroll-behavior: smooth;
+}
+body {
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+background: #F5F5F5;
+color: #161616;
+font-size: 18px;
+scroll-behavior: smooth;
+}
+.container {
+	max-width: 1140px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+
+/* HEADER ------------ */
+
+.header {
+	background: #81A36B;
+	padding: 20px 0;
+}
+
+.container-header {	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+.logo-img {
+	display: block;
+}
+
+.logo-img img {
+	width: 100%;
+    height: 100%;
+}
+
+
+.menu ul {
+	display: flex;
+	justify-content: space-between;
+	gap: 90px;
+} 
+
+.menu ul li a {
+	text-decoration: none;
+	color: #161616;
+
+}
+
+/*______________ MAIN_____________ */
+
+.main {
+	display: flex;
+	gap: 30px;
+	align-items: center;
+	margin-bottom: 120px;
+
+}
+
+h1 {
+font-family: Montserrat;
+font-size: 62px;
+font-weight: 400;
+line-height: 67px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 60px;
+
+}
+
+.text {
+font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 60px;
+
+}
+
+.button {
+	display: flex;
+	gap: 65px;
+	text-align: center;
+
+}
+
+.zakaz {
+font-size: 18px;
+background: #81A36B;
+border: none;
+padding: 15px 20px;
+
+}
+
+/* .help {
+	border: 1px solid #81A36B;
+	padding: 20px 16px;
+} */
+
+.help {
+	text-decoration: none;
+	color: #161616;
+	display: inline-block;
+	padding: 16px 20px;
+	border: 1px solid #81A36B;
+}
+
+
+
+/* ABOUT_us _____________ */
+.about_us {
+	margin: 0 auto 120px auto ;
+	width: 540px;
+}
+
+.title {
+font-family: Montserrat;
+font-size: 32px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0em;
+margin-bottom: 60px;
+text-align: center;
+}
+
+.text_about{
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: 0em;
+	text-align: center;
+	
+	
+}
+
+/* *TODO: PRICE */
+.price {
+	background: #81A36B;
+	padding: 80px 0;
+	text-align: center;
+	margin-bottom: 120px;
+}
+.price-box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* WE WORK__________ */
+
+.we_work {
+	display: flex;
+	gap: 30px;
+	align-items: center;
+	margin-bottom: 120px;
+
+}
+.how_we_work, .text_how_we {
+	flex: 1 1 50%;
+}
+
+/* ------our WORKS------ */
+
+.cards {
+	display: flex;
+	gap: 30px;
+	margin-bottom: 120px;
+	
+}
+
+.card {
+	background-color: #81A36B;
+	width: 350px;
+	padding-bottom: 45px;
+	text-align: center;
+	flex: 1 1 33%;
+}
+
+.card img {
+	margin: 15px;	
+}
+
+.card p {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 164.06%;
+
+}
+
+/* !FOOTER */
+.footer {
+	background: #81A36B;
+	padding: 60px 0;
+}
+
+.flex-conteiner {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.flex-conteiner h3 {
+	font-size: 24px;
+	line-height: 26px;
+	margin-bottom: 40px;
+}
+
+.footer-contact a {
+	color: #161616;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.footer-contact ul > li + li {
+	margin-top: 20px;
+}
+
+.footer-social ul {
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 20px;
+
+}
+
+/* .footer-contact ul > li:last-child {
+	margin-bottom: 0;
+} */
+.footer-year {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	text-align: center;
+}
